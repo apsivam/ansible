@@ -19,7 +19,7 @@ In a case like this (or ``local_action``) when Ansible needs to contact a 'local
 
    hosts:
      localhost:
-      vars:
+     vars:
         ansible_connection: local
         ansible_python_interpreter: "{{ansible_playbook_python}}"
 
